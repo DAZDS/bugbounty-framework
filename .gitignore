@@ -1,2 +1,26 @@
-modules/output/trip.com/*.txt
+# Output and reports
+output/
 modules/output/
+modules/output/*/
+modules/output/*.txt
+modules/output/**/*.txt
+*.zip
+*.pdf
+*.log
+
+# Banners and cache files
+banners/*.txt~
+__pycache__/
+*.pyc
+
+# Shodan and other tool outputs
+modules/output/*/shodan_*.json
+modules/output/*/shodan_summary.txt
+
+# Screenshots & branding
+screenshots/
+branding/logo.png
+
+# System files (Mac/Linux)
+.DS_Store
+Thumbs.db
